@@ -7,14 +7,9 @@ body {
 	-webkit-column-width: 600px;
 	height: 970px;
 	word-wrap: normal; 
-  /*word-wrap: break-word;*/
-
-  /*word-break: normal;*/
   -webkit-hyphens: auto;
 	font-size: 25px;
-	/*font-family: Lucida Console,monospace;*/
   font-family: Book Antiqua;
-	/*white-space: pre;*/
 }
 
 .tablatura {
@@ -28,8 +23,6 @@ p {
 
 p.chordline {
   line-height: 2.0;
-  /*margin-bottom: 0.5em;*/
-	/*margin-top: 0.5em;*/
 }
 
 p.info {

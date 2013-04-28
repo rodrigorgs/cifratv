@@ -28,11 +28,9 @@ var linesToDelete = [];
 for (var i = 0; i < lines.length; i++) {
 	var pos = lines[i].lastIndexOf("<b>");
 	while (pos != -1) {
-		console.log(pos);
 		var subline = lines[i].substr(pos);
 		var posEnd = pos + subline.indexOf("</b>") + 3;
 		var chord = lines[i].substr(pos + 3, posEnd - pos - 6);
-		console.log(chord);
 
 		// erase chord from the line
 		lines[i] = lines[i].substr(0, pos) + 
@@ -78,7 +76,6 @@ for (var i = 0; i < lines.length; i++) {
 
 cifra = lines.join("\n");
 
-console.log(cifra);
 var newCifraElem = document.createElement("div");
 newCifraElem.id = cifraElem.id;
 newCifraElem.innerHTML = cifra;
