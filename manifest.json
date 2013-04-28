@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "CifraTV",
+  "description": "This extensions displays cifras in a way that is suitable for TVs, in multiple columns.",
+  "version": "1.0",
+
+  "permissions":[
+    "tabs",
+    "file://*",
+    "http://www.cifraclub.com.br/*"
+  ],
+
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+
+  "background": {
+    "scripts": ["cifratv.js"],
+    "persistent": false
+  }
+}
