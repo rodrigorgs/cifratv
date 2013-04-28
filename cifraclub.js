@@ -81,3 +81,7 @@ newCifraElem.id = cifraElem.id;
 newCifraElem.innerHTML = cifra;
 body.appendChild(newCifraElem);
 
+
+var height = window.innerHeight;
+console.log(height);
+newCifraElem.style.height = "" + (height - 35) + "px";
