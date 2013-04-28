@@ -1,3 +1,7 @@
+body {
+  color: #5a5a5a;
+}
+
 #ct_cifra {
 	-webkit-column-count: auto;
 	-webkit-column-width: 600px;
@@ -18,39 +22,19 @@
 }
 
 p {
-  /*line-height:2.3em;*/
-  line-height: 1.0em;
+  line-height: 2;
   margin-bottom: 0.5em;
 	margin-top: 0.5em;
 }
 .chord {
-  position: relative;
-  /*top: -1.2em;*/
-  display:inline-block;
-  /*width: 5 em;*/
-  overflow:visible;
-
-  /* bootstrap */
-  background-color: rgb(58, 135, 173);
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  border-collapse: separate;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  color: rgb(255, 255, 255);
-  display: inline-block;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 25px;
   font-weight: bold;
-  height: 27px;
-  line-height: 27px;
-  padding-bottom: 2px;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-top: 2px;
-  text-align: left;
+  color: rgb(58, 135, 173);
   text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
-  vertical-align: baseline;
-  white-space: nowrap;
-  /*width: 22px;*/
+
+  position: relative;
+  top: -1em;
+  display: inline-block;
+  width: 0;
+  overflow: visible;
 }
