@@ -69,10 +69,15 @@ for (var i = linesToDelete.length - 1; i >= 0; i--) {
 
 // Add paragraph and paragraph style
 for (var i = 0; i < lines.length; i++) {
-	lines[i] = "<p>" + lines[i] + "</p>";
+	var cssClass = "info";
+	if (lines[i].indexOf("<span class='chord'>") != -1)
+		cssClass = "chordline"
+
+	lines[i] = "<p class='" + cssClass + "'>" + lines[i] + "</p>";
 }
 
 cifra = lines.join("\n");
+
 console.log(cifra);
 var newCifraElem = document.createElement("div");
 newCifraElem.id = cifraElem.id;

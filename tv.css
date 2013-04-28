@@ -22,10 +22,23 @@ body {
 }
 
 p {
-  line-height: 2;
-  margin-bottom: 0.5em;
-	margin-top: 0.5em;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
 }
+
+p.chordline {
+  line-height: 2.0;
+  /*margin-bottom: 0.5em;*/
+	/*margin-top: 0.5em;*/
+}
+
+p.info {
+  line-height: 1.0;
+  margin-bottom: 0.5em;
+  font-style: italic;
+  color: #468847;
+}
+
 .chord {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: bold;
