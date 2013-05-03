@@ -81,7 +81,6 @@ newCifraElem.id = cifraElem.id;
 newCifraElem.innerHTML = cifra;
 body.appendChild(newCifraElem);
 
+var height100 = window.innerHeight - 40;
 
-var height = window.innerHeight;
-console.log(height);
-newCifraElem.style.height = "" + (height - 35) + "px";
+$('#ct_cifra').columnize({width:400, height: height100});
