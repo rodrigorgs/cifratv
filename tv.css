@@ -9,6 +9,7 @@ body {
 	word-wrap: normal; 
 	font-size: 25px;
   font-family: "Lucida Console", Monaco, monospace;
+  /*white-space: pre-wrap;*/
 }
 
 .tablatura {
