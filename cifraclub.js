@@ -76,6 +76,10 @@ for (var i = 0; i < lines.length; i++) {
 
 cifra = lines.join("\n");
 
+// nbsp
+// cifra = cifra.replace(/\s/gm, '&nbsp;');
+
+
 var newCifraElem = document.createElement("div");
 newCifraElem.id = cifraElem.id;
 newCifraElem.innerHTML = cifra;
@@ -83,4 +87,4 @@ body.appendChild(newCifraElem);
 
 var height100 = window.innerHeight - 40;
 
-$('#ct_cifra').columnize({width:400, height: height100});
+$('#ct_cifra').columnize({width:500, height: height100});

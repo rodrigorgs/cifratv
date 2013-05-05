@@ -8,7 +8,7 @@ body {
 	height: 970px;
 	word-wrap: normal; 
 	font-size: 25px;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lucida Console", Monaco, monospace;
 }
 
 .tablatura {
@@ -32,7 +32,7 @@ p.info {
 }
 
 .chord {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
   font-weight: bold;
   color: rgb(58, 135, 173);
   text-shadow: rgba(0, 0, 0, 0.247059) 0px -1px 0px;
